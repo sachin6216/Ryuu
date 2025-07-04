@@ -94,7 +94,7 @@ struct SceneView: View {
         .onAppear {
             viewModel.checkVideoReady(for: scene.url)
         }
-        .onChange(of: player.currentItem?.status) {
+        .onChange(of: player.currentItem?.status) {  newValue in
             viewModel.checkVideoReady(for: scene.url)
         }
     }

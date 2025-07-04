@@ -6,7 +6,7 @@
 //
 import Foundation
 
-struct Episode: Identifiable, Hashable {
+struct Episode: Identifiable {
     let id = UUID()
     let number: Int
     let title: String

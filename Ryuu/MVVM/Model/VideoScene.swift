@@ -6,7 +6,7 @@
 //
 
 import Foundation
-struct VideoScene: Identifiable, Hashable {
+struct VideoScene: Identifiable {
     let id = UUID()
     let url: String
     let title: String
