@@ -2,7 +2,7 @@
 //  RyuuApp.swift
 //  Ryuu
 //
-//  Created by sachin.r.singh on 02/07/2025.
+//  Created by sachin on 03/07/2025.
 //
 
 import SwiftUI
@@ -11,7 +11,8 @@ import SwiftUI
 struct RyuuApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            EpisodeSelectionView()
+                .preferredColorScheme(.dark)
         }
     }
 }
