@@ -1,0 +1,702 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		044740CC2E4E55AD0033F1C5 /* RyuuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044740CB2E4E55AD0033F1C5 /* RyuuApp.swift */; };
+		044740D02E4E55B00033F1C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044740CF2E4E55B00033F1C5 /* Assets.xcassets */; };
+		044740D32E4E55B00033F1C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044740D22E4E55B00033F1C5 /* Preview Assets.xcassets */; };
+		044740DD2E4E55B00033F1C5 /* RyuuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044740DC2E4E55B00033F1C5 /* RyuuTests.swift */; };
+		044740E72E4E55B00033F1C5 /* RyuuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044740E62E4E55B00033F1C5 /* RyuuUITests.swift */; };
+		044740E92E4E55B00033F1C5 /* RyuuUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044740E82E4E55B00033F1C5 /* RyuuUITestsLaunchTests.swift */; };
+		044741002E4E56490033F1C5 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044740FE2E4E56490033F1C5 /* AppTheme.swift */; };
+		044741012E4E56490033F1C5 /* VideoPlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044740FF2E4E56490033F1C5 /* VideoPlayerManager.swift */; };
+		044741032E4E56570033F1C5 /* Questrial-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 044741022E4E56570033F1C5 /* Questrial-Regular.ttf */; };
+		044741062E4E566A0033F1C5 /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044741042E4E56690033F1C5 /* Episode.swift */; };
+		044741072E4E566A0033F1C5 /* VideoScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044741052E4E56690033F1C5 /* VideoScene.swift */; };
+		044741092E4E56770033F1C5 /* EpisodeDataFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044741082E4E56770033F1C5 /* EpisodeDataFactory.swift */; };
+		0447410D2E4E56890033F1C5 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0447410A2E4E56890033F1C5 /* LoadingView.swift */; };
+		0447410E2E4E56890033F1C5 /* CustomText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0447410B2E4E56890033F1C5 /* CustomText.swift */; };
+		0447410F2E4E56890033F1C5 /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0447410C2E4E56890033F1C5 /* AsyncImageView.swift */; };
+		044741132E4E56940033F1C5 /* VideoScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044741102E4E56940033F1C5 /* VideoScrollView.swift */; };
+		044741142E4E56940033F1C5 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044741112E4E56940033F1C5 /* VideoPlayerView.swift */; };
+		044741152E4E56940033F1C5 /* EpisodeSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044741122E4E56940033F1C5 /* EpisodeSelectionView.swift */; };
+		044741182E4E56A20033F1C5 /* VideoScrollViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044741162E4E56A10033F1C5 /* VideoScrollViewModel.swift */; };
+		044741192E4E56A20033F1C5 /* EpisodeListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044741172E4E56A10033F1C5 /* EpisodeListViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		044740D92E4E55B00033F1C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 044740C02E4E55AD0033F1C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 044740C72E4E55AD0033F1C5;
+			remoteInfo = Ryuu;
+		};
+		044740E32E4E55B00033F1C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 044740C02E4E55AD0033F1C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 044740C72E4E55AD0033F1C5;
+			remoteInfo = Ryuu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		044740C82E4E55AD0033F1C5 /* Ryuu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ryuu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		044740CB2E4E55AD0033F1C5 /* RyuuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RyuuApp.swift; sourceTree = "<group>"; };
+		044740CF2E4E55B00033F1C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		044740D22E4E55B00033F1C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		044740D82E4E55B00033F1C5 /* RyuuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RyuuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		044740DC2E4E55B00033F1C5 /* RyuuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RyuuTests.swift; sourceTree = "<group>"; };
+		044740E22E4E55B00033F1C5 /* RyuuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RyuuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		044740E62E4E55B00033F1C5 /* RyuuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RyuuUITests.swift; sourceTree = "<group>"; };
+		044740E82E4E55B00033F1C5 /* RyuuUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RyuuUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		044740FE2E4E56490033F1C5 /* AppTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		044740FF2E4E56490033F1C5 /* VideoPlayerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPlayerManager.swift; sourceTree = "<group>"; };
+		044741022E4E56570033F1C5 /* Questrial-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Questrial-Regular.ttf"; sourceTree = "<group>"; };
+		044741042E4E56690033F1C5 /* Episode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
+		044741052E4E56690033F1C5 /* VideoScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoScene.swift; sourceTree = "<group>"; };
+		044741082E4E56770033F1C5 /* EpisodeDataFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EpisodeDataFactory.swift; sourceTree = "<group>"; };
+		0447410A2E4E56890033F1C5 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		0447410B2E4E56890033F1C5 /* CustomText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomText.swift; sourceTree = "<group>"; };
+		0447410C2E4E56890033F1C5 /* AsyncImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
+		044741102E4E56940033F1C5 /* VideoScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoScrollView.swift; sourceTree = "<group>"; };
+		044741112E4E56940033F1C5 /* VideoPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+		044741122E4E56940033F1C5 /* EpisodeSelectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EpisodeSelectionView.swift; sourceTree = "<group>"; };
+		044741162E4E56A10033F1C5 /* VideoScrollViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoScrollViewModel.swift; sourceTree = "<group>"; };
+		044741172E4E56A10033F1C5 /* EpisodeListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EpisodeListViewModel.swift; sourceTree = "<group>"; };
+		0447411A2E4E56CD0033F1C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		044740C52E4E55AD0033F1C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044740D52E4E55B00033F1C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044740DF2E4E55B00033F1C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		044740BF2E4E55AD0033F1C5 = {
+			isa = PBXGroup;
+			children = (
+				044740CA2E4E55AD0033F1C5 /* Ryuu */,
+				044740DB2E4E55B00033F1C5 /* RyuuTests */,
+				044740E52E4E55B00033F1C5 /* RyuuUITests */,
+				044740C92E4E55AD0033F1C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		044740C92E4E55AD0033F1C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				044740C82E4E55AD0033F1C5 /* Ryuu.app */,
+				044740D82E4E55B00033F1C5 /* RyuuTests.xctest */,
+				044740E22E4E55B00033F1C5 /* RyuuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		044740CA2E4E55AD0033F1C5 /* Ryuu */ = {
+			isa = PBXGroup;
+			children = (
+				0447411A2E4E56CD0033F1C5 /* Info.plist */,
+				044740F92E4E55F60033F1C5 /* Helper */,
+				044740F52E4E55D80033F1C5 /* MVVM */,
+				044740CB2E4E55AD0033F1C5 /* RyuuApp.swift */,
+				044740CF2E4E55B00033F1C5 /* Assets.xcassets */,
+				044740D12E4E55B00033F1C5 /* Preview Content */,
+			);
+			path = Ryuu;
+			sourceTree = "<group>";
+		};
+		044740D12E4E55B00033F1C5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				044740D22E4E55B00033F1C5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		044740DB2E4E55B00033F1C5 /* RyuuTests */ = {
+			isa = PBXGroup;
+			children = (
+				044740DC2E4E55B00033F1C5 /* RyuuTests.swift */,
+			);
+			path = RyuuTests;
+			sourceTree = "<group>";
+		};
+		044740E52E4E55B00033F1C5 /* RyuuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				044740E62E4E55B00033F1C5 /* RyuuUITests.swift */,
+				044740E82E4E55B00033F1C5 /* RyuuUITestsLaunchTests.swift */,
+			);
+			path = RyuuUITests;
+			sourceTree = "<group>";
+		};
+		044740F52E4E55D80033F1C5 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				044740F82E4E55EE0033F1C5 /* ViewModel */,
+				044740F72E4E55E90033F1C5 /* View */,
+				044740F62E4E55E20033F1C5 /* Model */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		044740F62E4E55E20033F1C5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				044741042E4E56690033F1C5 /* Episode.swift */,
+				044741052E4E56690033F1C5 /* VideoScene.swift */,
+				044740FC2E4E56170033F1C5 /* Data Factory */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		044740F72E4E55E90033F1C5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				044741122E4E56940033F1C5 /* EpisodeSelectionView.swift */,
+				044741112E4E56940033F1C5 /* VideoPlayerView.swift */,
+				044741102E4E56940033F1C5 /* VideoScrollView.swift */,
+				044740FD2E4E56270033F1C5 /* Reusable View */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		044740F82E4E55EE0033F1C5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				044741172E4E56A10033F1C5 /* EpisodeListViewModel.swift */,
+				044741162E4E56A10033F1C5 /* VideoScrollViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		044740F92E4E55F60033F1C5 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				044740FE2E4E56490033F1C5 /* AppTheme.swift */,
+				044740FF2E4E56490033F1C5 /* VideoPlayerManager.swift */,
+				044740FB2E4E56000033F1C5 /* Font */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		044740FB2E4E56000033F1C5 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				044741022E4E56570033F1C5 /* Questrial-Regular.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		044740FC2E4E56170033F1C5 /* Data Factory */ = {
+			isa = PBXGroup;
+			children = (
+				044741082E4E56770033F1C5 /* EpisodeDataFactory.swift */,
+			);
+			path = "Data Factory";
+			sourceTree = "<group>";
+		};
+		044740FD2E4E56270033F1C5 /* Reusable View */ = {
+			isa = PBXGroup;
+			children = (
+				0447410C2E4E56890033F1C5 /* AsyncImageView.swift */,
+				0447410B2E4E56890033F1C5 /* CustomText.swift */,
+				0447410A2E4E56890033F1C5 /* LoadingView.swift */,
+			);
+			path = "Reusable View";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		044740C72E4E55AD0033F1C5 /* Ryuu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 044740EC2E4E55B00033F1C5 /* Build configuration list for PBXNativeTarget "Ryuu" */;
+			buildPhases = (
+				044740C42E4E55AD0033F1C5 /* Sources */,
+				044740C52E4E55AD0033F1C5 /* Frameworks */,
+				044740C62E4E55AD0033F1C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ryuu;
+			productName = Ryuu;
+			productReference = 044740C82E4E55AD0033F1C5 /* Ryuu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		044740D72E4E55B00033F1C5 /* RyuuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 044740EF2E4E55B00033F1C5 /* Build configuration list for PBXNativeTarget "RyuuTests" */;
+			buildPhases = (
+				044740D42E4E55B00033F1C5 /* Sources */,
+				044740D52E4E55B00033F1C5 /* Frameworks */,
+				044740D62E4E55B00033F1C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				044740DA2E4E55B00033F1C5 /* PBXTargetDependency */,
+			);
+			name = RyuuTests;
+			productName = RyuuTests;
+			productReference = 044740D82E4E55B00033F1C5 /* RyuuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		044740E12E4E55B00033F1C5 /* RyuuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 044740F22E4E55B00033F1C5 /* Build configuration list for PBXNativeTarget "RyuuUITests" */;
+			buildPhases = (
+				044740DE2E4E55B00033F1C5 /* Sources */,
+				044740DF2E4E55B00033F1C5 /* Frameworks */,
+				044740E02E4E55B00033F1C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				044740E42E4E55B00033F1C5 /* PBXTargetDependency */,
+			);
+			name = RyuuUITests;
+			productName = RyuuUITests;
+			productReference = 044740E22E4E55B00033F1C5 /* RyuuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		044740C02E4E55AD0033F1C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					044740C72E4E55AD0033F1C5 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					044740D72E4E55B00033F1C5 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 044740C72E4E55AD0033F1C5;
+					};
+					044740E12E4E55B00033F1C5 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 044740C72E4E55AD0033F1C5;
+					};
+				};
+			};
+			buildConfigurationList = 044740C32E4E55AD0033F1C5 /* Build configuration list for PBXProject "Ryuu" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 044740BF2E4E55AD0033F1C5;
+			productRefGroup = 044740C92E4E55AD0033F1C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				044740C72E4E55AD0033F1C5 /* Ryuu */,
+				044740D72E4E55B00033F1C5 /* RyuuTests */,
+				044740E12E4E55B00033F1C5 /* RyuuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		044740C62E4E55AD0033F1C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044741032E4E56570033F1C5 /* Questrial-Regular.ttf in Resources */,
+				044740D32E4E55B00033F1C5 /* Preview Assets.xcassets in Resources */,
+				044740D02E4E55B00033F1C5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044740D62E4E55B00033F1C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044740E02E4E55B00033F1C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		044740C42E4E55AD0033F1C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044741092E4E56770033F1C5 /* EpisodeDataFactory.swift in Sources */,
+				044740CC2E4E55AD0033F1C5 /* RyuuApp.swift in Sources */,
+				044741192E4E56A20033F1C5 /* EpisodeListViewModel.swift in Sources */,
+				044741062E4E566A0033F1C5 /* Episode.swift in Sources */,
+				044741142E4E56940033F1C5 /* VideoPlayerView.swift in Sources */,
+				0447410E2E4E56890033F1C5 /* CustomText.swift in Sources */,
+				044741182E4E56A20033F1C5 /* VideoScrollViewModel.swift in Sources */,
+				044741072E4E566A0033F1C5 /* VideoScene.swift in Sources */,
+				0447410F2E4E56890033F1C5 /* AsyncImageView.swift in Sources */,
+				044741152E4E56940033F1C5 /* EpisodeSelectionView.swift in Sources */,
+				044741012E4E56490033F1C5 /* VideoPlayerManager.swift in Sources */,
+				044741132E4E56940033F1C5 /* VideoScrollView.swift in Sources */,
+				0447410D2E4E56890033F1C5 /* LoadingView.swift in Sources */,
+				044741002E4E56490033F1C5 /* AppTheme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044740D42E4E55B00033F1C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044740DD2E4E55B00033F1C5 /* RyuuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044740DE2E4E55B00033F1C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044740E72E4E55B00033F1C5 /* RyuuUITests.swift in Sources */,
+				044740E92E4E55B00033F1C5 /* RyuuUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		044740DA2E4E55B00033F1C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 044740C72E4E55AD0033F1C5 /* Ryuu */;
+			targetProxy = 044740D92E4E55B00033F1C5 /* PBXContainerItemProxy */;
+		};
+		044740E42E4E55B00033F1C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 044740C72E4E55AD0033F1C5 /* Ryuu */;
+			targetProxy = 044740E32E4E55B00033F1C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		044740EA2E4E55B00033F1C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		044740EB2E4E55B00033F1C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		044740ED2E4E55B00033F1C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ryuu/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Ryuu/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sachin.Ryuu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		044740EE2E4E55B00033F1C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ryuu/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Ryuu/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sachin.Ryuu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		044740F02E4E55B00033F1C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sachin.RyuuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ryuu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ryuu";
+			};
+			name = Debug;
+		};
+		044740F12E4E55B00033F1C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sachin.RyuuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ryuu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ryuu";
+			};
+			name = Release;
+		};
+		044740F32E4E55B00033F1C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sachin.RyuuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ryuu;
+			};
+			name = Debug;
+		};
+		044740F42E4E55B00033F1C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sachin.RyuuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ryuu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		044740C32E4E55AD0033F1C5 /* Build configuration list for PBXProject "Ryuu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044740EA2E4E55B00033F1C5 /* Debug */,
+				044740EB2E4E55B00033F1C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		044740EC2E4E55B00033F1C5 /* Build configuration list for PBXNativeTarget "Ryuu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044740ED2E4E55B00033F1C5 /* Debug */,
+				044740EE2E4E55B00033F1C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		044740EF2E4E55B00033F1C5 /* Build configuration list for PBXNativeTarget "RyuuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044740F02E4E55B00033F1C5 /* Debug */,
+				044740F12E4E55B00033F1C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		044740F22E4E55B00033F1C5 /* Build configuration list for PBXNativeTarget "RyuuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044740F32E4E55B00033F1C5 /* Debug */,
+				044740F42E4E55B00033F1C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 044740C02E4E55AD0033F1C5 /* Project object */;
+}
